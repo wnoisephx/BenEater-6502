@@ -6602,7 +6602,7 @@
 		)
 		(uuid "b01ab131-5381-4e5d-8318-ed5d4dda09e6")
 	)
-	(hierarchical_label "Halt"
+	(hierarchical_label "HLT"
 		(shape input)
 		(at 42.545 150.495 270)
 		(fields_autoplaced yes)
@@ -11826,7 +11826,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Halt"
+		(property "Value" "HLT"
 			(at 36.195 149.225 0)
 			(effects
 				(font
