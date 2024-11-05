@@ -4373,12 +4373,6 @@
 		(uuid "287309ad-e2b8-420b-a6a0-418883b2734b")
 	)
 	(junction
-		(at 153.67 26.035)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35effc22-1ccd-41a5-86c1-f559ed65985b")
-	)
-	(junction
 		(at 112.395 81.915)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4449,6 +4443,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c413ff64-e042-4986-afde-58b93be653e5")
+	)
+	(junction
+		(at 153.67 25.908)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da4c2ac9-8ccd-439d-b1e9-a46063339aac")
 	)
 	(junction
 		(at 116.205 33.655)
@@ -4760,7 +4760,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 24.13) (xy 153.67 26.035)
+			(xy 153.67 24.13) (xy 153.67 25.908)
 		)
 		(stroke
 			(width 0)
@@ -5530,16 +5530,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 27.305) (xy 137.16 26.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ba18b4b-e4e7-4cf1-b8f3-2b07c41e9ad4")
-	)
-	(wire
-		(pts
 			(xy 87.63 75.565) (xy 87.63 82.55)
 		)
 		(stroke
@@ -5597,16 +5587,6 @@
 			(type default)
 		)
 		(uuid "920e672e-19ce-4973-9b65-4a23a2606be0")
-	)
-	(wire
-		(pts
-			(xy 137.16 26.035) (xy 139.7 26.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9483fa31-f723-4f09-b204-810dcd375e7c")
 	)
 	(wire
 		(pts
@@ -5700,16 +5680,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 26.035) (xy 153.67 26.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8822d41-b012-48e6-b238-ae1a6fa3590f")
-	)
-	(wire
-		(pts
 			(xy 111.125 65.405) (xy 111.125 69.215)
 		)
 		(stroke
@@ -5747,6 +5717,16 @@
 			(type default)
 		)
 		(uuid "abcf0efe-5fef-4fe3-a0be-efcbc842efec")
+	)
+	(wire
+		(pts
+			(xy 153.67 25.908) (xy 153.67 26.035)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2d75f8-da4f-4cf5-a65a-6ebbf0510ce2")
 	)
 	(wire
 		(pts
@@ -7246,7 +7226,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uf"
+		(property "Value" "0.1uf"
 			(at 122.555 160.02 0)
 			(effects
 				(font
@@ -7299,7 +7279,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 137.16 27.305 0)
+		(at 153.67 25.908 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7308,7 +7288,7 @@
 		(fields_autoplaced yes)
 		(uuid "0264188a-766c-4331-af84-c9b43b111752")
 		(property "Reference" "#PWR034"
-			(at 137.16 33.655 0)
+			(at 153.67 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7297,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 137.16 31.115 0)
+			(at 153.67 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 27.305 0)
+			(at 153.67 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +7315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 27.305 0)
+			(at 153.67 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +7324,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 27.305 0)
+			(at 153.67 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,7 +8190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 151.13 19.05 0)
 			(effects
 				(font
@@ -9102,91 +9082,6 @@
 			(project "BenEater-6502"
 				(path "/64020bd5-bae0-49a1-9410-23726bcfaf48/16aa598a-cc79-4ffe-8299-2b52f0e64f5a"
 					(reference "Middle1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 143.51 26.035 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e5d61c6-a6af-4bb0-9e76-85284d9203a9")
-		(property "Reference" "D10"
-			(at 146.685 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 144.145 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 143.51 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 143.51 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 143.51 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 143.51 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 143.51 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0df83586-ae1a-4795-a6df-980f6c025c8d")
-		)
-		(pin "1"
-			(uuid "72867fc6-a188-4998-92dc-4ca2eb9dc8df")
-		)
-		(instances
-			(project "BenEater-6502"
-				(path "/64020bd5-bae0-49a1-9410-23726bcfaf48/16aa598a-cc79-4ffe-8299-2b52f0e64f5a"
-					(reference "D10")
 					(unit 1)
 				)
 			)

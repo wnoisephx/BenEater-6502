@@ -3700,7 +3700,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uf"
+		(property "Value" "0.1uf"
 			(at 85.725 158.115 0)
 			(effects
 				(font
@@ -5192,7 +5192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 102.87 122.555 0)
 			(effects
 				(font
@@ -5255,7 +5255,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uf"
+		(property "Value" "0.1uf"
 			(at 74.295 158.115 0)
 			(effects
 				(font
