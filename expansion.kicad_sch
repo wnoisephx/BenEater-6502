@@ -968,7 +968,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x20_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -982,7 +982,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x20_Counter_Clockwise"
+			(property "Value" "Conn_02x20_Odd_Even"
 				(at 1.27 -27.94 0)
 				(effects
 					(font
@@ -1008,7 +1008,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x20, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1035,7 +1035,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x20_Counter_Clockwise_1_1"
+			(symbol "Conn_02x20_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -25.273)
 					(end 0 -25.527)
@@ -1506,7 +1506,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 7.62 12.7 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -1524,7 +1524,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -1542,7 +1542,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 10.16 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -1560,7 +1560,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -1578,7 +1578,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -1596,7 +1596,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -1614,7 +1614,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -15.24 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_16"
 						(effects
@@ -1632,7 +1632,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -17.78 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_17"
 						(effects
@@ -1650,7 +1650,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -20.32 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_18"
 						(effects
@@ -1668,7 +1668,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -22.86 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_19"
 						(effects
@@ -1686,7 +1686,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 20.32 0)
+					(at 7.62 22.86 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1704,7 +1704,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -25.4 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_20"
 						(effects
@@ -1722,7 +1722,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -25.4 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_21"
 						(effects
@@ -1740,7 +1740,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -22.86 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_22"
 						(effects
@@ -1758,7 +1758,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -20.32 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_23"
 						(effects
@@ -1776,7 +1776,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -17.78 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_24"
 						(effects
@@ -1794,7 +1794,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -15.24 180)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_25"
 						(effects
@@ -1812,7 +1812,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -12.7 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_26"
 						(effects
@@ -1830,7 +1830,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -10.16 180)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_27"
 						(effects
@@ -1848,7 +1848,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at 7.62 -10.16 180)
 					(length 3.81)
 					(name "Pin_28"
 						(effects
@@ -1866,7 +1866,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_29"
 						(effects
@@ -1884,7 +1884,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 17.78 0)
+					(at -5.08 20.32 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1902,7 +1902,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 -12.7 180)
 					(length 3.81)
 					(name "Pin_30"
 						(effects
@@ -1920,7 +1920,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -15.24 0)
 					(length 3.81)
 					(name "Pin_31"
 						(effects
@@ -1938,7 +1938,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -15.24 180)
 					(length 3.81)
 					(name "Pin_32"
 						(effects
@@ -1956,7 +1956,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at -5.08 -17.78 0)
 					(length 3.81)
 					(name "Pin_33"
 						(effects
@@ -1974,7 +1974,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at 7.62 -17.78 180)
 					(length 3.81)
 					(name "Pin_34"
 						(effects
@@ -1992,7 +1992,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 10.16 180)
+					(at -5.08 -20.32 0)
 					(length 3.81)
 					(name "Pin_35"
 						(effects
@@ -2010,7 +2010,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 12.7 180)
+					(at 7.62 -20.32 180)
 					(length 3.81)
 					(name "Pin_36"
 						(effects
@@ -2028,7 +2028,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 180)
+					(at -5.08 -22.86 0)
 					(length 3.81)
 					(name "Pin_37"
 						(effects
@@ -2046,7 +2046,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 17.78 180)
+					(at 7.62 -22.86 180)
 					(length 3.81)
 					(name "Pin_38"
 						(effects
@@ -2064,7 +2064,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 20.32 180)
+					(at -5.08 -25.4 0)
 					(length 3.81)
 					(name "Pin_39"
 						(effects
@@ -2082,7 +2082,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 15.24 0)
+					(at 7.62 20.32 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -2100,7 +2100,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 22.86 180)
+					(at 7.62 -25.4 180)
 					(length 3.81)
 					(name "Pin_40"
 						(effects
@@ -2118,7 +2118,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at -5.08 17.78 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -2136,7 +2136,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at 7.62 17.78 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -2154,7 +2154,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 15.24 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -2172,7 +2172,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at 7.62 15.24 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -2190,7 +2190,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 12.7 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -2759,151 +2759,6 @@
 				)
 			)
 			(symbol "1N4001_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Diode:SB140"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SB140"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SB140_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SB140_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -5860,16 +5715,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 70.485) (xy 26.035 70.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c05e6cde-4c78-4328-bfd3-e420599757ba")
-	)
-	(wire
-		(pts
 			(xy 199.39 62.23) (xy 205.74 62.23)
 		)
 		(stroke
@@ -6512,6 +6357,18 @@
 		)
 		(uuid "4c27b7c2-89b0-42a9-a647-2c0209b18903")
 	)
+	(hierarchical_label "CS2"
+		(shape bidirectional)
+		(at 34.925 78.105 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c6d35c7-fb2b-4802-a569-647a226e0202")
+	)
 	(hierarchical_label "A8"
 		(shape bidirectional)
 		(at 199.39 74.93 180)
@@ -6776,6 +6633,18 @@
 		)
 		(uuid "8eabe8a0-0fd0-4fbd-94f2-7698cfdc5957")
 	)
+	(hierarchical_label "A4"
+		(shape bidirectional)
+		(at 34.925 90.805 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92cde909-d6ba-4725-8caf-648b8dd33dbf")
+	)
 	(hierarchical_label "A1"
 		(shape bidirectional)
 		(at 199.39 57.15 180)
@@ -6896,18 +6765,6 @@
 		)
 		(uuid "b3c4c547-c5d4-4a53-b217-0ca0a423bf93")
 	)
-	(hierarchical_label "CS2Via2"
-		(shape bidirectional)
-		(at 34.925 78.105 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b4363a9a-44d4-470b-bc5e-f2e91550c5a8")
-	)
 	(hierarchical_label "A11"
 		(shape bidirectional)
 		(at 199.39 82.55 180)
@@ -6992,18 +6849,6 @@
 		)
 		(uuid "ce20e406-c49e-42d6-b16a-5b9fd5b572c2")
 	)
-	(hierarchical_label "A3"
-		(shape bidirectional)
-		(at 34.925 90.805 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d539b2bf-082f-4676-8e6c-ba4eb43f4d40")
-	)
 	(hierarchical_label "A7"
 		(shape bidirectional)
 		(at 243.84 72.39 180)
@@ -7078,7 +6923,7 @@
 	)
 	(hierarchical_label "IRQ"
 		(shape bidirectional)
-		(at 20.32 70.485 180)
+		(at 33.655 70.485 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8435,7 +8280,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x20_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
 		(at 210.82 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8478,7 +8323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 210.82 77.47 0)
 			(effects
 				(font
@@ -9438,7 +9283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x20_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
 		(at 255.27 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9481,7 +9326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 255.27 77.47 0)
 			(effects
 				(font
@@ -9820,74 +9665,6 @@
 			(project "BenEater-6502"
 				(path "/64020bd5-bae0-49a1-9410-23726bcfaf48/16aa598a-cc79-4ffe-8299-2b52f0e64f5a"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SB140")
-		(at 29.845 70.485 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2065683-2360-4949-959f-6f8d39b77129")
-		(property "Reference" "D7"
-			(at 26.67 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SB140"
-			(at 30.1625 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 29.845 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
-			(at 29.845 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.845 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5ba8954-813c-49a6-aa61-bfe37b78d28c")
-		)
-		(pin "2"
-			(uuid "9fd33ea2-28d0-4846-ba88-85d5766e2abf")
-		)
-		(instances
-			(project "BenEater-6502"
-				(path "/64020bd5-bae0-49a1-9410-23726bcfaf48/16aa598a-cc79-4ffe-8299-2b52f0e64f5a"
-					(reference "D7")
 					(unit 1)
 				)
 			)

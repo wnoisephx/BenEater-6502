@@ -973,151 +973,6 @@
 				)
 			)
 		)
-		(symbol "Diode:SB140"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SB140"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SB140_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SB140_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PCM_65xx-library:W65C51NxP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2660,16 +2515,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.735 61.595) (xy 41.275 61.595)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25d2ec05-3996-4da8-8127-7225eaf89627")
-	)
-	(wire
-		(pts
 			(xy 116.205 69.215) (xy 106.045 69.215)
 		)
 		(stroke
@@ -3130,7 +2975,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.305 61.595) (xy 31.115 61.595)
+			(xy 27.305 61.595) (xy 41.275 61.595)
 		)
 		(stroke
 			(width 0)
@@ -5370,74 +5215,6 @@
 			(project "BenEater-6502"
 				(path "/64020bd5-bae0-49a1-9410-23726bcfaf48/5be250a5-29bf-4920-8282-0800b279cae0"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SB140")
-		(at 34.925 61.595 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9d7a23c-24bd-4935-ad43-f3ad52bc6c4d")
-		(property "Reference" "D8"
-			(at 32.385 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SB140"
-			(at 35.2425 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 34.925 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
-			(at 34.925 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.925 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35418bf8-83b5-462c-be3c-9192b963973e")
-		)
-		(pin "2"
-			(uuid "5ed0f045-99f5-4d0b-b4c4-207b8811231f")
-		)
-		(instances
-			(project "BenEater-6502"
-				(path "/64020bd5-bae0-49a1-9410-23726bcfaf48/5be250a5-29bf-4920-8282-0800b279cae0"
-					(reference "D8")
 					(unit 1)
 				)
 			)
