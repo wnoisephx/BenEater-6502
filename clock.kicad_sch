@@ -8719,7 +8719,7 @@
 			(project "BenEater-6502"
 				(path "/64020bd5-bae0-49a1-9410-23726bcfaf48/5a49408d-bc6d-4641-a815-21b24906e7e4"
 					(reference "U4")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
