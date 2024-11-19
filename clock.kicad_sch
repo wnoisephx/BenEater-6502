@@ -11013,13 +11013,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "X1 / Generator"
 			(at 223.52 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
