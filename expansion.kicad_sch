@@ -2797,6 +2797,151 @@
 				)
 			)
 		)
+		(symbol "Diode:SB140"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SB140"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SB140_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SB140_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_65xx-library:W65C22NxP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4661,16 +4806,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.798 70.612) (xy 41.91 70.612)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e6a42a1-ce34-466c-a0d6-7e933a50553a")
-	)
-	(wire
-		(pts
 			(xy 218.44 87.63) (xy 224.79 87.63)
 		)
 		(stroke
@@ -5501,6 +5636,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.304 70.612) (xy 21.59 70.612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91696af5-9727-4694-af3c-6dfdea79341e")
+	)
+	(wire
+		(pts
 			(xy 85.09 78.232) (xy 85.09 82.55)
 		)
 		(stroke
@@ -5578,6 +5723,16 @@
 			(type default)
 		)
 		(uuid "9dd7d5a8-8da4-4259-a84c-728ffbdefa9b")
+	)
+	(wire
+		(pts
+			(xy 29.21 70.612) (xy 41.91 70.612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ddd800d-9276-44c5-b2a0-90ef7d5cdd7d")
 	)
 	(wire
 		(pts
@@ -6987,7 +7142,7 @@
 	)
 	(hierarchical_label "IRQ"
 		(shape bidirectional)
-		(at 34.798 70.612 180)
+		(at 19.304 70.612 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10467,6 +10622,74 @@
 			(project ""
 				(path "/64020bd5-bae0-49a1-9410-23726bcfaf48/16aa598a-cc79-4ffe-8299-2b52f0e64f5a"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SB140")
+		(at 25.4 70.612 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8d28cfe-f065-41e0-9e56-9f46d7e5d54e")
+		(property "Reference" "D8"
+			(at 25.7175 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB140"
+			(at 25.7175 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 25.4 66.167 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+			(at 25.4 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 25.4 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b7b7328-cb87-4658-ad4d-9729a8476d77")
+		)
+		(pin "1"
+			(uuid "9bf50291-c131-45a9-bf61-fee42c122f58")
+		)
+		(instances
+			(project "BenEater-6502"
+				(path "/64020bd5-bae0-49a1-9410-23726bcfaf48/16aa598a-cc79-4ffe-8299-2b52f0e64f5a"
+					(reference "D8")
 					(unit 1)
 				)
 			)
